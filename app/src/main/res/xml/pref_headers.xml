@@ -1,0 +1,15 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.github.yacchin1205.pepper_monitor.SettingsActivity$ServerPreferenceFragment"
+        android:icon="@drawable/ic_backup_black_24dp"
+        android:title="@string/pref_header_server" />
+
+    <header
+        android:fragment="com.github.yacchin1205.pepper_monitor.SettingsActivity$DataPreferenceFragment"
+        android:icon="@drawable/ic_unarchive_black_24dp"
+        android:title="@string/pref_header_data" />
+
+</preference-headers>

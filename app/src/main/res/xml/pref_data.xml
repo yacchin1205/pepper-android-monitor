@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_interval_sec"
+        android:inputType="number"
+        android:key="interval_sec"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_interval_sec" />
+
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_tag_prefix"
+        android:inputType="text"
+        android:key="tag_prefix"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_tag_prefix" />
+
+
+</PreferenceScreen>

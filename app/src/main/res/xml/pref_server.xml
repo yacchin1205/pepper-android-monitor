@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="enable_fluentd"
+        android:summary="@string/pref_description_enable_fluentd"
+        android:title="@string/pref_title_enable_fluentd" />
+
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_fluentd_host"
+        android:inputType="text"
+        android:key="fluentd_host"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_fluentd_host" />
+
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="@string/pref_default_fluentd_port"
+        android:inputType="number"
+        android:key="fluentd_port"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_fluentd_port" />
+
+</PreferenceScreen>

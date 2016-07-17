@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">pepper-monitor</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_server">Server</string>
+
+    <string name="pref_description_enable_fluentd">Fluentdログ送信を有効にする</string>
+    <string name="pref_title_enable_fluentd">Fluentdによるログ送信</string>
+    <string name="pref_default_fluentd_host">192.168.1.1</string>
+    <string name="pref_title_fluentd_host">転送先Fluentdホスト</string>
+    <string name="pref_title_fluentd_port">転送先Fluentdポート</string>
+    <string name="pref_default_fluentd_port">24224</string>
+    <string name="pref_header_data">Data</string>
+    <string name="pref_default_interval_sec">60</string>
+    <string name="pref_title_interval_sec">送信間隔(秒)</string>
+    <string name="pref_title_tag_prefix">タグ</string>
+    <string name="pref_default_tag_prefix">pepper</string>
+</resources>
